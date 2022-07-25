@@ -668,6 +668,9 @@ ul {
         margin-bottom: 30px;
     }
 }
+
+
+
 .container-dev {
     display: flex;
     gap: 4rem;
@@ -881,6 +884,11 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    .container-dev {
+    display: flex;
+       flex-direction: row;
+    }
+    
     .wrapper {
         left: 20%;
     }
@@ -913,3 +921,7 @@ p {
         width: 100%;
     }
 }
+
+
+
+
