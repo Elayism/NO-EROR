@@ -880,9 +880,12 @@ p {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
+    .container {
+        width: 200%;
+    }
     .wrapper {
-        left: 10%;
+        left: 15%;
     }
     .contact-form {
         flex-direction: column;
@@ -896,26 +899,19 @@ p {
     }
 
     .container-banner {
-        width: 130%;
+        width: 1195px;
         margin-left: 0;
         margin-right: 0;
     }
     .main {
-        margin-left: 5%;
+        width: 100%;
     }
 
     .container-dev {
-        width: 300px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        margin-left: 300px;
-    }
-
-    .theback {
-        margin: 0;
-        text-align: center;
-        justify-content: center;
+        margin-left: 35%;
+        width: 300px;
     }
 
     .right .top {
