@@ -1023,16 +1023,11 @@ ul {
     }
 
     .dropdown {
-        position: relative;
-        align-items: center;
-        right: 15px;
-        top: 18%;
+        display:none;
     }
 
     .dropdown1 {
-        position: relative;
-        right: 25px;
-        top: 20%;
+       display:none;
     }
 
     @keyframes AdMenu {
