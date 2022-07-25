@@ -907,12 +907,12 @@ main {
 
 @media screen and (max-width: 780px) {
     main {
-        width: 400px;
+        width: 600px;
         margin-left: 5%;
     }
 
     form {
-        width: 400px;
+        width: 600px;
         margin-left: 5%;
     }
 
@@ -922,7 +922,7 @@ main {
     }
 
     .customize-theme {
-        width: 400px;
+        width: 600px;
         margin-left: 5%;
     }
 
@@ -933,11 +933,11 @@ main {
 
 @media (max-width: 393px) {
     main {
- width: 400px;
+        width: 100%;
     }
 
     form {
-      width: 400px;
+        width: 100%;
     }
 
     .below {
@@ -945,7 +945,7 @@ main {
     }
 
     .customize-theme {
-        width: 400px;
+        width: 100%;
     }
 
     .customize-theme .card {
@@ -1107,21 +1107,6 @@ ul {
 }
 
 @media (max-width: 375px) {
-    footer {
-        width: 600px;
-    }
-
-    .container-footer {
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 592px) {
     footer {
         width: 600px;
     }
