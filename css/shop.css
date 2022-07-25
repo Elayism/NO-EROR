@@ -1095,7 +1095,7 @@ ul {
 
 @media (max-width: 393px) {
     footer {
-        width: 600px;
+       width: 100%
     }
 
     .container-footer {
