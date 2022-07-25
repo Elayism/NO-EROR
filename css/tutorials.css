@@ -1043,3 +1043,19 @@ ul {
     }
 }
 
+
+@media (max-width: 598px) {
+    footer {
+        width: 600px;
+    }
+    .container-footer {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
