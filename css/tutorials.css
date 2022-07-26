@@ -1019,6 +1019,23 @@ ul {
 
 /*responsive*/
 
+    @media (max-width: 1200px) {
+    
+    footer {
+         width: 110%;
+    }
+
+    .container-footer {
+        width: 100%;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+}
+    
+    
+
 
 @media (max-width: 990px) {
     
