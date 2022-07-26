@@ -774,6 +774,8 @@ ul {
     height: 300px;
     background: url(../image/hero-banner.gif);
     margin-top: 20%;
+    background-color: #0009;
+	background-blend-mode: overlay;
 }
 
 .banner h1,
