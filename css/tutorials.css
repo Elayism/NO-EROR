@@ -1036,11 +1036,31 @@ ul {
     }
 }
 
+    
+    @media (max-width: 1200px) {
+    
+    footer {
+         width: 100%;
+    }
 
+    .container-footer {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+    
+    
 
 
 
 @media (max-width: 990px) {
+    
     footer {
          width: 100%;
     }
