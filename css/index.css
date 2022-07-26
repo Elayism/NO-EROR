@@ -325,7 +325,7 @@
   .nav-secondary-links > ul {
     display: flex;
     align-items: center;
-    gap: 13px;
+    gap: 2rem;
   }
   
   .nav-secondary-links a {
