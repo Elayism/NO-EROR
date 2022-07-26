@@ -1124,17 +1124,7 @@ ul {
     }
 }
 
-#cart-fab {
-    background-color: var(--color-primary);
-    transition: all .2s ease-in-out;
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    right: 50px;
-    bottom: 30px;
-    border: 0;
-    z-index: 2;
-}
+
 
 
 @media (max-width: 450px) {
