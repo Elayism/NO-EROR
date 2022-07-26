@@ -1151,4 +1151,9 @@ ul {
 
 }
 
+@media (max-width: 768px)
+#cartdiv {
+    width: 300px;
+}
+
 
