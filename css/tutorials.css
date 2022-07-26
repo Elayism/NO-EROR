@@ -810,7 +810,7 @@ button {
 
 /* Media Queries for Sponspored */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .sponsored {
         width: 100%;
     }
@@ -831,13 +831,13 @@ button {
         position: relative;
         align-items: center;
         right: 15px;
-        top: 18%;
+        top: 45%;
     }
 
     .dropdown1 {
         position: relative;
         right: 25px;
-        top: 20%;
+        top: 65%;
     }
 
     @keyframes AdMenu {
@@ -987,7 +987,7 @@ ul {
 
 @media (max-width: 990px) {
     footer {
-        width: 400px;
+        width: 600px;
     }
 
     .container-footer {
@@ -1003,7 +1003,7 @@ ul {
 
 @media (max-width: 768px) {
     footer {
-        width: 400px;
+        width: 600px;
     }
 
     .container-footer {
