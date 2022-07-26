@@ -10,9 +10,10 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="./css/Checkout.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/checkout.js"></script>
 </head>
 
-<body>
+<body onload="pageInit()">
   <main>
     <div class="w3-left">
      <a href="shop.html"><button class="w3-button w3-round" id="go-back">Go Back</button></a>
@@ -42,10 +43,6 @@
 
       <div class="w3-card w3-container" id="order-summary">
         <h1>Order Summary</h1>
-        <div class="w3-quarter w3-center OS"><img src="./img/1.jpg" style="height: 100px;"></div>
-        <div class="w3-quarter w3-center w3-cell-midle OS">3x3</div>
-        <div class="w3-quarter w3-center w3-cell-midle OS">1</div>
-        <div class="w3-quarter w3-center w3-cell-midle OS">₱100</div>
       </div>
 
       <div class="w3-card w3-container" id="payment">
@@ -118,13 +115,12 @@
         </div>
       </div>
       <div class="w3-right">
-        <button class="w3-button w3-round" id="placeOrder">Place Order</button>
+       <a href="./shop.html"><button class="w3-button w3-round w3-blue" id="placeOrder">Place Order</button></a> 
       </div>
 
     </div>
 
   </main>
-  <script href="./js/checkout.js"></script>
 </body>
 
 </html>
