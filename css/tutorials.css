@@ -987,7 +987,7 @@ ul {
 
 @media (max-width: 990px) {
     footer {
-        width: 720px;
+         width: 100%;
     }
 
     .container-footer {
@@ -1003,7 +1003,7 @@ ul {
 
 @media (max-width: 768px) {
     footer {
-        width: 720px;
+        width: 100%;
     }
 
     .container-footer {
