@@ -24,15 +24,12 @@ const toggleScrollBar = () => {
 hamMenu.addEventListener("click", toggleHamMenuDisplay);
 
 
-// Get the modal
-var modal = document.getElementById('id01');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+$("#id01").click(e => {
+  if($(e.target).attr("id") == "id01"){
+    $("#id01").hide();
   }
-}
+})
 
-// Get the modal
 var modal = document.getElementById('id02');
 window.onclick = function(event) {
   if (event.target == modal) {
