@@ -810,6 +810,40 @@ button {
 
 /* Media Queries for Sponspored */
 
+@media (max-width: 1200px) {
+    .sponsored {
+        width: 100%;
+    }
+    .sponsored a {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .sponsored-photo {
+        width: 20%;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        position: relative;
+        align-items: center;
+        right: 15px;
+        top: 45%;
+    }
+
+    .dropdown1 {
+        position: relative;
+        right: 25px;
+        top: 65%;
+    }
+
+
+
+
+
 @media (max-width: 900px) {
     .sponsored {
         width: 100%;
@@ -984,6 +1018,27 @@ ul {
 }
 
 /*responsive*/
+
+
+@media (max-width: 1200px) {
+    footer {
+         width: 100%;
+    }
+
+    .container-footer {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
 
 @media (max-width: 990px) {
     footer {
